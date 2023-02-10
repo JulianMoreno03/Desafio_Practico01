@@ -64,6 +64,13 @@ namespace Ejercicio_4
                     Console.Write("\n\n");
                     Console.Write("\tSu salario semanal es de... " + salario);
                 }
+                   else
+                        {
+                            Console.Write(" ERORR ");
+                            Console.Write("\n\n\n");
+                            Console.Write("\tEl obrero no puede trabajar tanto :( "); 
+                        }
+
                   
 
         }
