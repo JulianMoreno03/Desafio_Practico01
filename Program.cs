@@ -71,7 +71,22 @@ namespace Ejercicio_4
                             Console.Write("\tEl obrero no puede trabajar tanto :( "); 
                         }
 
-                  
+            Console.ReadKey();
+            Console.Clear();
+            Console.Write("\n\n\n");
+            Console.WriteLine("\t*************************************************************");
+            Console.WriteLine("\t\t*                                        *");
+            Console.WriteLine("\t\t*     Este programa fue diseñado por:    *");
+            Console.WriteLine("\t\t*                                        *");
+            Console.WriteLine("\t\t*             Julian Moreno              *");
+            Console.WriteLine("\t\t*                                        *");
+            Console.Write("\t");
+
+            Console.WriteLine("*************************************************************");
+
+            Console.Write("\t\t\t Fin del programa ----->");
+            Console.ReadKey();
+
 
         }
     }
