@@ -49,6 +49,14 @@ namespace Ejercicio_4
                     Console.Write("\n\n");
                     Console.Write("\tAl obrero se le paga su horario normal, mas un bono por cada hora del 125%");
                     //Calculamos cuantas horas extras trabajo 
+                    horasExtras = horas - 30;
+                    //Aumentamos el valor de las horas
+                    horasExtras = horasExtras * extra;
+                    Console.Write("\n\n");
+                    Console.Write("\tAl obrero se le paga un bono de " + horasExtras);
+                    Console.Write("\n\n");
+                 
+                    salario = salario * horas + horasExtras; 
                  
                  
                     salario = salario * horas + horasExtras;
