@@ -13,6 +13,7 @@ namespace Ejercicio_5
             Console.Write("\n");
             Console.Write("\t\t\t\t\t\tValor de una resistencia");
             Console.Write("\n\n");
+            Console.Title=("Valor de una resistencia");
 
             Double B1 = 0;
             Double B2 = 0;
