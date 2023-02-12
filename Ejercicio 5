@@ -1,0 +1,372 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ejercicio_5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("\n");
+            Console.Write("\t\t\t\t\t\tValor de una resistencia");
+            Console.Write("\n\n");
+
+            Double B1 = 0;
+            Double B2 = 0;
+            Double MULT = 0;
+            Double TOL = 0;
+            Double B = 0;
+            Double TOTAL;
+            int opcion;
+            //B1= banda 1, B2= banda 2, MULT= multiplicador, TOL= tolerancia, B=La suma de b1+b2.
+
+            Console.Write("\tMenu de colores de la primer banda");
+            Console.Write("\n\n");
+            Console.Write("\t1) Negro");
+            Console.Write("\n");
+            Console.Write("\t2) Marrón");
+            Console.Write("\n");
+            Console.Write("\t3) Rojo");
+            Console.Write("\n");
+            Console.Write("\t4) Naranja");
+            Console.Write("\n");
+            Console.Write("\t5) Amarillo");
+            Console.Write("\n");
+            Console.Write("\t6) Verde");
+            Console.Write("\n");
+            Console.Write("\t7) Azul");
+            Console.Write("\n");
+            Console.Write("\t8) Violeta");
+            Console.Write("\n");
+            Console.Write("\t9) Gris");
+            Console.Write("\n");
+            Console.Write("\t10) Blanco");
+            Console.Write("\n\n");
+            Console.Write("\tDigite la opcion deseada (1...10): ");
+            opcion = int.Parse(Console.ReadLine());
+            Console.Clear();
+
+            switch (opcion)
+            {
+                case 1:
+                    B1 = 0;
+                    break;
+
+                case 2:
+                    B1 = 1;
+                    break;
+
+                case 3:
+                    B1 = 2;
+                    break;
+
+                case 4:
+                    B1 = 3;
+                    break;
+
+                case 5:
+                    B1 = 4;
+                    break;
+
+                case 6:
+                    B1 = 5;
+                    break;
+
+                case 7:
+                    B1 = 6;
+                    break;
+
+                case 8:
+                    B1 = 7;
+                    break;
+
+                case 9:
+                    B1 = 8;
+                    break;
+
+                case 10:
+                    B1 = 9;
+                    break;
+
+
+                default:
+                    Console.Write("\n");
+                    Console.Write("\tInserte un opcion valida (1...10)");
+                    Console.ReadKey();
+                    Environment.Exit(0);
+                    break;
+            }
+
+           
+
+            Console.Write("\n");
+            Console.Write("\t\t\t\t\t\tValor de una resistencia");
+            Console.Write("\n\n");
+
+            Console.Write("\tMenu de colores de la segunda banda");
+            Console.Write("\n\n");
+            Console.Write("\t1) Negro");
+            Console.Write("\n");
+            Console.Write("\t2) Marrón");
+            Console.Write("\n");
+            Console.Write("\t3) Rojo");
+            Console.Write("\n");
+            Console.Write("\t4) Naranja");
+            Console.Write("\n");
+            Console.Write("\t5) Amarillo");
+            Console.Write("\n");
+            Console.Write("\t6) Verde");
+            Console.Write("\n");
+            Console.Write("\t7) Azul");
+            Console.Write("\n");
+            Console.Write("\t8) Violeta");
+            Console.Write("\n");
+            Console.Write("\t9) Gris");
+            Console.Write("\n");
+            Console.Write("\t10) Blanco");
+            Console.Write("\n\n");
+            Console.Write("\tDigite la opcion deseada (1...10): ");
+            opcion = int.Parse(Console.ReadLine());
+            Console.Clear();
+
+            switch (opcion)
+            {
+                case 1:
+                    B2 = 0;
+                    break;
+
+                case 2:
+                    B2 = 1;
+                    break;
+
+                case 3:
+                    B2 = 2;
+                    break;
+
+                case 4:
+                    B2 = 3;
+                    break;
+
+                case 5:
+                    B2 = 4;
+                    break;
+
+                case 6:
+                    B2 = 5;
+                    break;
+
+                case 7:
+                    B2 = 6;
+                    break;
+
+                case 8:
+                    B2 = 7;
+                    break;
+
+                case 9:
+                    B2 = 8;
+                    break;
+
+                case 10:
+                    B2 = 9;
+                    break;
+
+                default:
+                    Console.Write("\n");
+                    Console.Write("\tInserte un opcion valida (1...10)");
+                    Console.ReadKey();
+                    Environment.Exit(0);
+                    break;
+            }
+
+            Console.Write("\n");
+            Console.Write("\t\t\t\t\t\tValor de una resistencia");
+            Console.Write("\n\n");
+
+            Console.Write("\tMenu de colores del multiplicador de la resistencia");
+            Console.Write("\n\n");
+            Console.Write("\t1) Negro");
+            Console.Write("\n");
+            Console.Write("\t2) Marrón");
+            Console.Write("\n");
+            Console.Write("\t3) Rojo");
+            Console.Write("\n");
+            Console.Write("\t4) Naranja");
+            Console.Write("\n");
+            Console.Write("\t5) Amarillo");
+            Console.Write("\n");
+            Console.Write("\t6) Verde");
+            Console.Write("\n");
+            Console.Write("\t7) Azul");
+            Console.Write("\n");
+            Console.Write("\t8) Violeta");
+            Console.Write("\n");
+            Console.Write("\t9) Gris");
+            Console.Write("\n");
+            Console.Write("\t10) Blanco");
+            Console.Write("\n");
+            Console.Write("\t11) Dorado");
+            Console.Write("\n");
+            Console.Write("\t12) Plateado");
+            Console.Write("\n\n");
+            Console.Write("\tDigite la opcion deseada (1...12): ");
+            opcion = int.Parse(Console.ReadLine());
+            Console.Clear();
+
+            switch (opcion)
+            {
+                case 1:
+                    MULT = 1;
+                    break;
+
+                case 2:
+                    MULT = 10;
+                    break;
+
+                case 3:
+                    MULT = 100;
+                    break;
+
+                case 4:
+                    MULT = 1000;
+                    break;
+
+                case 5:
+                    MULT = 10000;
+                    break;
+
+                case 6:
+                    MULT = 100000;
+                    break;
+
+                case 7:
+                    MULT = 1000000;
+                    break;
+
+                case 8:
+                    MULT = 10000000;
+                    break;
+
+                case 9:
+                    MULT = 100000000;
+                    break;
+
+                case 10:
+                    MULT = 1000000000;
+                    break;
+
+                case 11:
+                    MULT = 0.1;
+                    break;
+
+                case 12:
+                    MULT = 0.01;
+                    break;
+
+                default:
+                    Console.Write("\n");
+                    Console.Write("\tInserte un opcion valida (1...12)");
+                    Console.ReadKey();
+                    Environment.Exit(0);
+                    break;
+            }
+
+            Console.Write("\n");
+            Console.Write("\t\t\t\t\t\tValor de una resistencia");
+            Console.Write("\n\n");
+
+            Console.Write("\tMenu de colores de la tolerania de la resistencia");
+            Console.Write("\n\n");
+            Console.Write("\t1) Marrón");
+            Console.Write("\n");
+            Console.Write("\t2) Rojo");
+            Console.Write("\n");
+            Console.Write("\t3) Dorado");
+            Console.Write("\n");
+            Console.Write("\t4) Plateado");
+            Console.Write("\n");
+            Console.Write("\t5) No posee banda");
+            Console.Write("\n\n");
+            Console.Write("\tDigite la opcion deseada (1...12): ");
+            opcion = int.Parse(Console.ReadLine());
+            Console.Clear();
+
+            switch (opcion)
+            {
+                case 1:
+                    TOL = 1;
+                    break;
+
+                case 2:
+                    TOL = 2;
+                    break;
+
+                case 3:
+                    TOL = 5;
+                    break;
+
+                case 4:
+                    TOL = 10;
+                    break;
+
+                case 5:
+                    TOL = 20;
+                    break;
+
+                default:
+                    Console.Write("\n");
+                    Console.Write("\tInserte un opcion valida (1...12)");
+                    Console.ReadKey();
+                    Environment.Exit(0);
+                    break;
+            }
+
+            B1 = B1 * 10;
+            B = B1 + B2;
+            TOTAL = B * MULT;
+
+            if (TOTAL>=1000 && TOTAL<1000000)
+            {
+                TOTAL = TOTAL / 1000;
+                Console.Write("\n");
+                Console.Write("\t\t\t\t\t\tValor de una resistencia");
+                Console.Write("\n\n");
+              
+                Console.Write("\tEl valor de la resistencia es de " + TOTAL + " Kiloohms con ±" + TOL + "% de tolerancia");
+
+            }else if (TOTAL>=1000000 && TOTAL<1000000000)
+                    {
+                TOTAL = TOTAL / 1000000;
+
+                Console.Write("\n");
+                Console.Write("\t\t\t\t\t\tValor de una resistencia");
+                Console.Write("\n\n");
+
+                Console.Write("\tEl valor de la resistencia es de " + TOTAL + " Megaohms con ±" + TOL + "% de tolerancia");
+            }
+            else if (TOTAL>=1000000000)
+            {
+                TOTAL = TOTAL / 1000000000;
+
+                Console.Write("\n");
+                Console.Write("\t\t\t\t\t\tValor de una resistencia");
+                Console.Write("\n\n");
+                
+                Console.Write("\tEl valor de la resistencia es de " + TOTAL + " Gigaohms con ±" + TOL + "% de tolerancia");
+            }
+            else
+            {
+                Console.Write("\n");
+                Console.Write("\t\t\t\t\t\tValor de una resistencia");
+                Console.Write("\n\n");
+              
+                Console.Write("\tEl valor de la resistencia es de " + TOTAL + " ohms con ±" + TOL + "% de tolerancia");
+            }
+            
+            Console.ReadKey();
+        }
+    }
+}
