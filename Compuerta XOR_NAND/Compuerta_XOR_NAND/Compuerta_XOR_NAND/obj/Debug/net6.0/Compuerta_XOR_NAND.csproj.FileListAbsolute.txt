@@ -1,0 +1,15 @@
+C:\Users\MINEDUCYT\Desktop\Ciclo 1- 2023\Programación de algoritmos\Compuerta XOR_NAND\Compuerta_XOR_NAND\Compuerta_XOR_NAND\bin\Debug\net6.0\Compuerta_XOR_NAND.exe
+C:\Users\MINEDUCYT\Desktop\Ciclo 1- 2023\Programación de algoritmos\Compuerta XOR_NAND\Compuerta_XOR_NAND\Compuerta_XOR_NAND\bin\Debug\net6.0\Compuerta_XOR_NAND.deps.json
+C:\Users\MINEDUCYT\Desktop\Ciclo 1- 2023\Programación de algoritmos\Compuerta XOR_NAND\Compuerta_XOR_NAND\Compuerta_XOR_NAND\bin\Debug\net6.0\Compuerta_XOR_NAND.runtimeconfig.json
+C:\Users\MINEDUCYT\Desktop\Ciclo 1- 2023\Programación de algoritmos\Compuerta XOR_NAND\Compuerta_XOR_NAND\Compuerta_XOR_NAND\bin\Debug\net6.0\Compuerta_XOR_NAND.dll
+C:\Users\MINEDUCYT\Desktop\Ciclo 1- 2023\Programación de algoritmos\Compuerta XOR_NAND\Compuerta_XOR_NAND\Compuerta_XOR_NAND\bin\Debug\net6.0\Compuerta_XOR_NAND.pdb
+C:\Users\MINEDUCYT\Desktop\Ciclo 1- 2023\Programación de algoritmos\Compuerta XOR_NAND\Compuerta_XOR_NAND\Compuerta_XOR_NAND\obj\Debug\net6.0\Compuerta_XOR_NAND.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\Desktop\Ciclo 1- 2023\Programación de algoritmos\Compuerta XOR_NAND\Compuerta_XOR_NAND\Compuerta_XOR_NAND\obj\Debug\net6.0\Compuerta_XOR_NAND.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MINEDUCYT\Desktop\Ciclo 1- 2023\Programación de algoritmos\Compuerta XOR_NAND\Compuerta_XOR_NAND\Compuerta_XOR_NAND\obj\Debug\net6.0\Compuerta_XOR_NAND.AssemblyInfoInputs.cache
+C:\Users\MINEDUCYT\Desktop\Ciclo 1- 2023\Programación de algoritmos\Compuerta XOR_NAND\Compuerta_XOR_NAND\Compuerta_XOR_NAND\obj\Debug\net6.0\Compuerta_XOR_NAND.AssemblyInfo.cs
+C:\Users\MINEDUCYT\Desktop\Ciclo 1- 2023\Programación de algoritmos\Compuerta XOR_NAND\Compuerta_XOR_NAND\Compuerta_XOR_NAND\obj\Debug\net6.0\Compuerta_XOR_NAND.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\Desktop\Ciclo 1- 2023\Programación de algoritmos\Compuerta XOR_NAND\Compuerta_XOR_NAND\Compuerta_XOR_NAND\obj\Debug\net6.0\Compuerta_XOR_NAND.dll
+C:\Users\MINEDUCYT\Desktop\Ciclo 1- 2023\Programación de algoritmos\Compuerta XOR_NAND\Compuerta_XOR_NAND\Compuerta_XOR_NAND\obj\Debug\net6.0\refint\Compuerta_XOR_NAND.dll
+C:\Users\MINEDUCYT\Desktop\Ciclo 1- 2023\Programación de algoritmos\Compuerta XOR_NAND\Compuerta_XOR_NAND\Compuerta_XOR_NAND\obj\Debug\net6.0\Compuerta_XOR_NAND.pdb
+C:\Users\MINEDUCYT\Desktop\Ciclo 1- 2023\Programación de algoritmos\Compuerta XOR_NAND\Compuerta_XOR_NAND\Compuerta_XOR_NAND\obj\Debug\net6.0\Compuerta_XOR_NAND.genruntimeconfig.cache
+C:\Users\MINEDUCYT\Desktop\Ciclo 1- 2023\Programación de algoritmos\Compuerta XOR_NAND\Compuerta_XOR_NAND\Compuerta_XOR_NAND\obj\Debug\net6.0\ref\Compuerta_XOR_NAND.dll
