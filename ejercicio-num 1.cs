@@ -34,7 +34,7 @@ namespace Ejercicio_1
             ;
             Console.WriteLine(" el valor del perimetro en milimetros es: " + Math.Round(p,2) + "mm");
             Console.WriteLine(" el valor de perimetro en centimetros es: " + Math.Round(cm,2) + "cm");
-            Console.WriteLine(" el valor del perimetro en pulgadas es: " + Math.Round(plg,2)+"plg");
+            Console.WriteLine(" el valor del perimetro en pulgadas es: " + Math.Round(plg,2)+"pulg");
             Console.WriteLine();
             Console.ReadKey();
 
