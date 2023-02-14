@@ -336,7 +336,7 @@ namespace Ejercicio_5
                 Console.Write("\t\t\t\t\t\tValor de una resistencia");
                 Console.Write("\n\n");
               
-                Console.Write("\tEl valor de la resistencia es de " + TOTAL + " Kiloohms con ±" + TOL + "% de tolerancia");
+                Console.Write("\tEl valor de la resistencia es de " + TOTAL + " Kiloohms con  +/-" + TOL + "% de tolerancia");
 
             }else if (TOTAL>=1000000 && TOTAL<1000000000)
                     {
@@ -346,7 +346,7 @@ namespace Ejercicio_5
                 Console.Write("\t\t\t\t\t\tValor de una resistencia");
                 Console.Write("\n\n");
 
-                Console.Write("\tEl valor de la resistencia es de " + TOTAL + " Megaohms con ±" + TOL + "% de tolerancia");
+                Console.Write("\tEl valor de la resistencia es de " + TOTAL + " Megaohms con  +/-" + TOL + "% de tolerancia");
             }
             else if (TOTAL>=1000000000)
             {
@@ -356,7 +356,7 @@ namespace Ejercicio_5
                 Console.Write("\t\t\t\t\t\tValor de una resistencia");
                 Console.Write("\n\n");
                 
-                Console.Write("\tEl valor de la resistencia es de " + TOTAL + " Gigaohms con ±" + TOL + "% de tolerancia");
+                Console.Write("\tEl valor de la resistencia es de " + TOTAL + " Gigaohms con  +/-" + TOL + "% de tolerancia");
             }
             else
             {
@@ -364,7 +364,7 @@ namespace Ejercicio_5
                 Console.Write("\t\t\t\t\t\tValor de una resistencia");
                 Console.Write("\n\n");
               
-                Console.Write("\tEl valor de la resistencia es de " + TOTAL + " ohms con ±" + TOL + "% de tolerancia");
+                Console.Write("\tEl valor de la resistencia es de " + TOTAL + " ohms con  +/-" + TOL + "% de tolerancia");
             }
             
             Console.ReadKey();
