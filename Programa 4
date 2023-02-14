@@ -11,9 +11,9 @@ namespace Ejercicio_4
         static void Main(string[] args)
         {
             //Declaramos variables
-            Double salario, horas, extra, horasExtras;
+            Double salario, horas, horasExtras;
 
-            extra = 1.25;
+            const Double extra = 1.25;
             //Enunciado 
             Console.Write("\n\n");
             Console.WriteLine("\tUn Obrero necesita calcular su salario semanal ");
