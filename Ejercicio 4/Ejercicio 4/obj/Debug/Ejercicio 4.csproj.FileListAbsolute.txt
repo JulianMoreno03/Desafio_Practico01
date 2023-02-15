@@ -1,0 +1,7 @@
+C:\Users\JULIAN\OneDrive\Escritorio\Progra Algoritmos\Laboratorio\Ejercicio 4\Ejercicio 4\bin\Debug\Ejercicio 4.exe.config
+C:\Users\JULIAN\OneDrive\Escritorio\Progra Algoritmos\Laboratorio\Ejercicio 4\Ejercicio 4\bin\Debug\Ejercicio 4.exe
+C:\Users\JULIAN\OneDrive\Escritorio\Progra Algoritmos\Laboratorio\Ejercicio 4\Ejercicio 4\bin\Debug\Ejercicio 4.pdb
+C:\Users\JULIAN\OneDrive\Escritorio\Progra Algoritmos\Laboratorio\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.csprojAssemblyReference.cache
+C:\Users\JULIAN\OneDrive\Escritorio\Progra Algoritmos\Laboratorio\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.csproj.CoreCompileInputs.cache
+C:\Users\JULIAN\OneDrive\Escritorio\Progra Algoritmos\Laboratorio\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.exe
+C:\Users\JULIAN\OneDrive\Escritorio\Progra Algoritmos\Laboratorio\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.pdb
