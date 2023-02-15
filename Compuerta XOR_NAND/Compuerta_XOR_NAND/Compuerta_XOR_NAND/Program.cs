@@ -8,7 +8,7 @@ Console.Write("\n\n");
 // Declaracion de variables
 //cuando v= valor entrada 1 f= valor entrada 2
 string a, b;
-int op, v, f, c;
+int op;
 //Cálculos
 Console.Write("\t Bienvenido/a \n");
 Console.Write("\t Programa para determinar el resultado de la compuerta lógica XOR y de una NAND. \n");
@@ -49,21 +49,30 @@ switch (op)
     case 2:
         Console.Write("\t 2. Compuerta lógica NAND.");
         Console.Write("\n \t");
-        Console.Write("\t Ingresa el valor de A, puede ser la V= 1 o F= 0): ");
-        v = int.Parse(Console.ReadLine());
-        Console.Write("\t \t Ingresa el valor de B, puede ser V= 1 o F= 0): ");
-        f = int.Parse(Console.ReadLine());
+        Console.Write("\t Ingresa el valor de A, puede ser la letra V= 1 o la letra F= 0):");
+        a = Console.ReadLine();
+        Console.Write("\t \t Ingresa el valor de A, puede ser la letra V= 1 o la letra F= 0): ");
+        b = Console.ReadLine();
         Console.Write("\n \t");
+
         //Proceso
-        c = v * f;
-        if (c > 0)
-        {
-            Console.Write("\t \t Los valores lógicos de salida es F. (F = 0)");
-        }
-        else
+        if (a=="F"&& b== "F")
         {
             Console.Write("\t \t Los valores lógicos de salida es V. (V = 1)");
         }
+        else if(a == "F" && b == "V")
+        {
+            Console.Write("\t \t Los valores lógicos de salida es V. (V = 1)");
+        }
+        else if (a == "V" && b == "F")
+        {
+            Console.Write("\t \t Los valores lógicos de salida es V. (V = 1)");
+        }
+        else
+        {
+            Console.Write("\t \t Los valores lógicos de salida es F. (F = 0)");
+        }
+
         break;
 
     default:
